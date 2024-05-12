@@ -1,0 +1,314 @@
+
+
+body {
+    font-family: "Roboto", arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #88929a;
+}
+
+
+
+.header-img {
+         width: 200px;
+         display: block;
+         margin: 0 auto;
+}
+
+.menu {
+height: 50px;
+background: url(img/body-bg.jpg);
+}
+
+.menu ul {
+       color: #fff;
+       padding-top:15px;
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+
+}
+
+.menu ul li {
+list-style-type:none
+}
+
+.menu ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+.gradient-eu {
+
+    background: linear-gradient(90deg, #FF7715 6.02%, #FF45E5 55.46%, #F4DC14 100%, #F4DC14 100%);
+}
+
+.white-bacground {
+    display: block;
+    margin: auto 0;
+    width: 100%;
+    background: #FFF;
+}
+
+.follow-us {
+    padding: 10px;
+    
+}
+
+.follow-us-container {
+    background: #FFF
+}
+
+.follow-us .col-sm {
+    padding: 20px
+}
+
+.follow-us-header { 
+    text-align: center;
+    display: block;
+    font-family: "Manrope", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 34px;
+    color: #0144fa;
+}
+
+.social-media {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media a img {
+    width: 50px;
+}
+
+.follow-us-text {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+}
+
+.news {
+    background: #05025e;
+    padding: 30px 0 30px 0
+}
+
+.news a {
+    text-decoration: none
+}
+
+.news-button {
+    background-color: #1dc1df;
+    border-color: #1dc1df;
+    border: solid 1px;
+    color:#05025e;
+    font-size: 20px;
+    padding: 20px;
+    -webkit-transition: property duration timing-function delay;
+    -moz-transition: property duration timing-function delay;
+    transition: .5s;
+}
+
+.news-button:hover {
+    background-color:#04015E;
+    color:#1dc1df;
+    border-color: #1dc1df;
+}
+
+
+.winners {
+    background: url(img/winners-background.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0 50px 0
+}
+
+.winners-header {
+    font-family: "Manrope", sans-serif;
+    display: block; 
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.winner-card {
+    display: block;
+    margin: 0 auto;
+}
+
+.winner-card img {
+    margin: 45px 0 20px 0;
+    width: 90%;
+    border-radius: 20px
+
+}
+
+.winner-card p {
+    color: #FFF;
+    line-height: 20px;
+    font-family: "Manrope", sans-serif;
+
+}
+
+.winner-country {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400 !important;
+
+}
+
+.winner-name {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 200 !important;
+}
+
+.winner-song {
+    color: #FFF;
+}
+
+
+.winner-photo {
+    width: 90%;
+}
+
+footer {
+    background: url(img/foot-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0 50px 0
+}
+
+.footer-text {
+    margin-top: 30px;
+    font-family: "Manrope", sans-serif;
+    display: block; 
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.join {
+
+    background: #FFF;
+    color: #04015E;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border: solid #FFF;
+    -webkit-transition: property duration timing-function delay;
+    -moz-transition: property duration timing-function delay;
+    transition: .5s;
+}
+
+.join:hover {
+    cursor: pointer;
+    background: #DACCE7;
+    border: solid #DACCE7;
+   
+}
+
+.modal-window {
+    padding: 10px 0 10px 0;
+    display: none;
+    position: fixed;
+    border: solid 1px #03005E;
+    background: #FFF;
+    z-index: 1000;
+    top: 25%;
+    left: 25%;
+    width: 50%
+
+}
+
+.modal-img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+  input,
+  label
+   {
+    color:#04015E;
+    font-weight: 600;
+    display: block;
+    margin: 10px auto;
+    font-family: "Manrope", sans-serif;
+    width: 80%;
+  }
+
+  label {
+      text-align: center
+  }
+
+  .form-submit {
+    display: block;
+    margin: 20px auto;
+    font-family: "Manrope", sans-serif;
+    cursor: pointer;
+    background: #05025e;
+    color: #FFF;
+    border: solid #05025e;
+    padding: 5px 10px 5px 10px
+
+  }
+  
+  #sign-up span {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;  
+    color: #05025e;  
+    position: absolute;
+    right: 10px;
+    top: 5px;  
+  }
+
+  #sign-up span:hover {
+    cursor: pointer;
+  }
+  
+
+  .participants-header {
+    margin: 25px 0 25px 0;
+    font-family: "Manrope", sans-serif;
+    display: block; 
+    color: #05025e;;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .participants-name {
+    font-family: "Manrope", sans-serif;
+    display: block; 
+    color: #05025e;;
+    font-size: 25px;
+    font-weight: 700;  
+  }
+
+  .participant-card {
+      margin: 25px 0 25px 0;
+  }
+
+
+  .date-img {
+      width: 100%
+  }
+
+  .date-text {
+    font-family: "Manrope", sans-serif;
+    display: block; 
+    color: #05025e;;
+    font-size: 15px;
+    font-weight: 500;
+
+  }
+
+
+  .winner-2024-row {
+      margin: 30px 0 30px 0;
+  }
+  .winner-2024 {
+      width: 90%
+  }
